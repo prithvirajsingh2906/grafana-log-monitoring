@@ -1,0 +1,51 @@
+
+# Local logs and synchronized server files
+logs/
+serverlogs/
+ServerLogs/
+*.log
+*.log.*
+
+# Loki data and indexes
+loki-data/
+data/
+chunks/
+index/
+cache/
+wal/
+
+# Local runtime files
+*.pid
+*.tmp
+*.temp
+*.out
+
+# Credentials and private keys
+.env
+.env.*
+!.env.example
+*.ppk
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local configuration containing environment-specific details
+config/alloy.alloy
+config/loki.yaml
+config/loki.yml
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Backup files
+*.bak
+*.old
+*.backup
